@@ -22,7 +22,7 @@ export const artLocations: Location[] = [
       'Unknown Buddhist monks and artists',
       'Court artists of the Satavahana dynasty'
     ],
-    imageUrl: '/images/1.jpg',
+    imageUrl: '/iaf_a2/images/1.jpg',
     established: '2nd Century BCE'
   },
   {
@@ -45,7 +45,7 @@ export const artLocations: Location[] = [
       'Rashtrakuta court sculptors',
       'Unknown master craftsmen'
     ],
-    imageUrl: '/images/2.jpg',
+    imageUrl: '/iaf_a2/images/2.jpg',
     established: '6th Century CE'
   },
   {
@@ -68,7 +68,7 @@ export const artLocations: Location[] = [
       'Chandela court sculptors',
       'Master craftsmen of Bundelkhand'
     ],
-    imageUrl: '/images/3.jpg',
+    imageUrl: '/iaf_a2/images/3.jpg',
     established: '950 CE'
   },
   {
@@ -91,7 +91,7 @@ export const artLocations: Location[] = [
       'Bisu Maharana (legendary architect)',
       'Eastern Ganga court sculptors'
     ],
-    imageUrl: '/images/4.jpg',
+    imageUrl: '/iaf_a2/images/4.jpg',
     established: '1250 CE'
   },
   {
@@ -114,7 +114,7 @@ export const artLocations: Location[] = [
       'Vijayanagara court architects',
       'South Indian stone carvers'
     ],
-    imageUrl: '/images/5.jpg',
+    imageUrl: '/iaf_a2/images/5.jpg',
     established: '14th Century CE'
   },
   {
@@ -137,7 +137,7 @@ export const artLocations: Location[] = [
       'Pallava court sculptors',
       'Master craftsmen of Kanchipuram school'
     ],
-    imageUrl: '/images/6.jpg',
+    imageUrl: '/iaf_a2/images/6.jpg',
     established: '630 CE'
   },
   {
@@ -161,7 +161,7 @@ export const artLocations: Location[] = [
       'Sunga period sculptors',
       'Satavahana artists'
     ],
-    imageUrl: '/images/7.jpg',
+    imageUrl: '/iaf_a2/images/7.jpg',
     established: '3rd Century BCE'
   },
   {
@@ -185,7 +185,7 @@ export const artLocations: Location[] = [
       'Hindu stone carvers',
       'Muslim calligraphers'
     ],
-    imageUrl: '/images/8.jpg',
+    imageUrl: '/iaf_a2/images/8.jpg',
     established: '1571 CE'
   },
   {
@@ -209,7 +209,7 @@ export const artLocations: Location[] = [
       'Punjabi fresco painters',
       'Muslim and Hindu artisans'
     ],
-    imageUrl: '/images/9.jpg',
+    imageUrl: '/iaf_a2/images/9.jpg',
     established: '1589 CE'
   },
   {
@@ -233,7 +233,7 @@ export const artLocations: Location[] = [
       'Nayak period artists',
       'Tamil stone carvers'
     ],
-    imageUrl: '/images/10.jpg',
+    imageUrl: '/iaf_a2/images/10.jpg',
     established: '12th Century CE'
   }
 ];
