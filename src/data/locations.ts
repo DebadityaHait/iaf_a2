@@ -1,6 +1,18 @@
 
 import { Location } from '../types/Location';
 
+// Import all images
+import img1 from '/images/1.jpg';
+import img2 from '/images/2.jpg';
+import img3 from '/images/3.jpg';
+import img4 from '/images/4.jpg';
+import img5 from '/images/5.jpg';
+import img6 from '/images/6.jpg';
+import img7 from '/images/7.jpg';
+import img8 from '/images/8.jpg';
+import img9 from '/images/9.jpg';
+import img10 from '/images/10.jpg';
+
 export const artLocations: Location[] = [
   {
     id: 'ajanta-caves',
@@ -22,7 +34,7 @@ export const artLocations: Location[] = [
       'Unknown Buddhist monks and artists',
       'Court artists of the Satavahana dynasty'
     ],
-    imageUrl: '/iaf_a2/images/1.jpg',
+    imageUrl: img1,
     established: '2nd Century BCE'
   },
   {
@@ -45,7 +57,7 @@ export const artLocations: Location[] = [
       'Rashtrakuta court sculptors',
       'Unknown master craftsmen'
     ],
-    imageUrl: '/iaf_a2/images/2.jpg',
+    imageUrl: img2,
     established: '6th Century CE'
   },
   {
@@ -68,7 +80,7 @@ export const artLocations: Location[] = [
       'Chandela court sculptors',
       'Master craftsmen of Bundelkhand'
     ],
-    imageUrl: '/iaf_a2/images/3.jpg',
+    imageUrl: img3,
     established: '950 CE'
   },
   {
@@ -91,7 +103,7 @@ export const artLocations: Location[] = [
       'Bisu Maharana (legendary architect)',
       'Eastern Ganga court sculptors'
     ],
-    imageUrl: '/iaf_a2/images/4.jpg',
+    imageUrl: img4,
     established: '1250 CE'
   },
   {
@@ -114,7 +126,7 @@ export const artLocations: Location[] = [
       'Vijayanagara court architects',
       'South Indian stone carvers'
     ],
-    imageUrl: '/iaf_a2/images/5.jpg',
+    imageUrl: img5,
     established: '14th Century CE'
   },
   {
@@ -137,7 +149,7 @@ export const artLocations: Location[] = [
       'Pallava court sculptors',
       'Master craftsmen of Kanchipuram school'
     ],
-    imageUrl: '/iaf_a2/images/6.jpg',
+    imageUrl: img6,
     established: '630 CE'
   },
   {
@@ -161,7 +173,7 @@ export const artLocations: Location[] = [
       'Sunga period sculptors',
       'Satavahana artists'
     ],
-    imageUrl: '/iaf_a2/images/7.jpg',
+    imageUrl: img7,
     established: '3rd Century BCE'
   },
   {
@@ -185,7 +197,7 @@ export const artLocations: Location[] = [
       'Hindu stone carvers',
       'Muslim calligraphers'
     ],
-    imageUrl: '/iaf_a2/images/8.jpg',
+    imageUrl: img8,
     established: '1571 CE'
   },
   {
@@ -209,7 +221,7 @@ export const artLocations: Location[] = [
       'Punjabi fresco painters',
       'Muslim and Hindu artisans'
     ],
-    imageUrl: '/iaf_a2/images/9.jpg',
+    imageUrl: img9,
     established: '1589 CE'
   },
   {
@@ -233,7 +245,7 @@ export const artLocations: Location[] = [
       'Nayak period artists',
       'Tamil stone carvers'
     ],
-    imageUrl: '/iaf_a2/images/10.jpg',
+    imageUrl: img10,
     established: '12th Century CE'
   }
 ];
