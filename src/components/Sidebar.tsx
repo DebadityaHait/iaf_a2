@@ -36,42 +36,42 @@ const Sidebar: React.FC<SidebarProps> = ({
     <div className="h-full bg-gray-50 flex flex-col">
       {/* Scrollable Content */}
       <div className="flex-1 overflow-y-auto p-6">
-        <div className="mb-6">
-          <h1 className="text-3xl font-bold text-gray-900 mb-2">
-            Indian Art History Map
-          </h1>
-          <p className="text-gray-600 leading-relaxed">
-            Explore the rich heritage of Indian art through its most significant locations. 
-            Discover the stories, artworks, and historical context that shaped India's artistic legacy.
-          </p>
-        </div>
+      <div className="mb-6">
+        <h1 className="text-3xl font-bold text-gray-900 mb-2">
+          Indian Art History Map
+        </h1>
+        <p className="text-gray-600 leading-relaxed">
+          Explore the rich heritage of Indian art through its most significant locations. 
+          Discover the stories, artworks, and historical context that shaped India's artistic legacy.
+        </p>
+      </div>
 
-        <SearchBar searchTerm={searchTerm} onSearchChange={onSearchChange} />
+      <SearchBar searchTerm={searchTerm} onSearchChange={onSearchChange} />
+      
+      <CategoryFilter 
+        selectedCategory={selectedCategory} 
+        onCategoryChange={onCategoryChange} 
+      />
+
+      <div className="space-y-6">
+        <h2 className="text-xl font-semibold text-gray-900">
+          {filteredLocations.length} Location{filteredLocations.length !== 1 ? 's' : ''} Found
+        </h2>
         
-        <CategoryFilter 
-          selectedCategory={selectedCategory} 
-          onCategoryChange={onCategoryChange} 
-        />
-
-        <div className="space-y-6">
-          <h2 className="text-xl font-semibold text-gray-900">
-            {filteredLocations.length} Location{filteredLocations.length !== 1 ? 's' : ''} Found
-          </h2>
-          
-          {filteredLocations.map((location) => (
-            <LocationCard
-              key={location.id}
-              location={location}
-              onSelect={onLocationSelect}
-            />
-          ))}
-          
-          {filteredLocations.length === 0 && (
-            <div className="text-center py-12">
-              <p className="text-gray-500">No locations found matching your criteria.</p>
-              <p className="text-sm text-gray-400 mt-2">Try adjusting your search or filter settings.</p>
-            </div>
-          )}
+        {filteredLocations.map((location) => (
+          <LocationCard
+            key={location.id}
+            location={location}
+            onSelect={onLocationSelect}
+          />
+        ))}
+        
+        {filteredLocations.length === 0 && (
+          <div className="text-center py-12">
+            <p className="text-gray-500">No locations found matching your criteria.</p>
+            <p className="text-sm text-gray-400 mt-2">Try adjusting your search or filter settings.</p>
+          </div>
+        )}
         </div>
       </div>
 

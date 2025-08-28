@@ -46,9 +46,12 @@ const Map: React.FC<MapProps> = ({ locations, onLocationSelect, selectedCategory
 
       // Add OpenStreetMap tiles
       L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-        attribution: '© OpenStreetMap contributors',
+        attribution: '',
         maxZoom: 18,
       }).addTo(leafletMap);
+
+      // Remove attribution control completely
+      leafletMap.attributionControl.remove();
 
       // Set bounds to India
       const indiaBounds = L.latLngBounds(
