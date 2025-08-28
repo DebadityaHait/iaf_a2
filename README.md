@@ -56,12 +56,6 @@ This is a static React application that can be deployed on:
 - Leaflet.js (for maps)
 - Lucide React (for icons)
 
-## Contributors
-
-- Debaditya Hait (RA2311003011027)
-- Saumyajit Ghosal (RA2311003011040)
-- Kairav Shrivatsav (RA2311003011041)
-
 ## License
 
 This project is for educational purposes.
